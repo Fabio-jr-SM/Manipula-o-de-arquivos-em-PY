@@ -11,9 +11,7 @@ def cadastrar_aluno(cadastro):
         rga = max(cadastro.keys())+1
     
     cadastro[rga] = (nome,email,turma)
-    print(cadastro)
-
-
+    
 def listar_alunos(cadastro):
     print("{:<10} {:<20} {:<20} {:<20}".format("RGA","NOME","EMAIL","TURMA"))
     for rga, tupla in cadastro.items():
