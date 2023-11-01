@@ -1,4 +1,3 @@
-import os
 import json
 
 def carregar_tabela():
